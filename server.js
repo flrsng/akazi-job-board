@@ -13,7 +13,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 // Simple route
 app.get('/', (req, res) => {
-    res.send('Hello from Express & MongoDB!');
+    res.send('Hello from Express & MongoDB! Revised');
 });
 
 // Start server
